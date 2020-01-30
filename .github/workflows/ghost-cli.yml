@@ -43,4 +43,4 @@ jobs:
       - run: zip -r ghost.zip .
       - run: mkdir test
       - run: ghost install v2 --local -d test
-      - run: ghost update -f -d test --zip ../ghost.zip
+      - run: ghost update --auto -d test --zip ../ghost.zip
